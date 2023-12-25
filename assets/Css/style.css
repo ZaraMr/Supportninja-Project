@@ -196,3 +196,36 @@ header .header-top p {
     
 }
 
+.container-section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+   
+}
+
+.container-section-2 .section-2-pic {
+    width: 46%;
+}
+
+.container-section-2 .section-2-pic img {
+    width: 100%;
+}
+
+.container-section-2 .section-2-text {
+    width: 45%;
+}
+
+.container-section-2 .section-2-text h2 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 550;
+    margin-bottom: 30px;
+}
+
+.container-section-2 .section-2-text p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    
+}
