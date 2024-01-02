@@ -15,11 +15,12 @@
 
 body {
   font-family: sans-serif;
-  background-color: #f7e1d2;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #2b2c30;
 }
 
 a {
@@ -305,4 +306,61 @@ header .header-top p {
   .list-item-link
   a {
   font-weight: 600;
+}
+
+/* SECTION-4 */
+
+.container-section-4 .slide-container{
+  border: 1px solid gray;
+  padding: 50px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/pics/icons/64149f79022d0ce154ce4785_Testimonial\ Scribble\ 02.svg),url(/assets/pics/icons/64149f79022d0c6fbcce4788_Testimonial\ Scribble\ 01.svg);
+  background-position: 104% 0,0 0;
+  background-repeat: no-repeat,no-repeat;
+  background-size: auto,auto;
+  border-radius: 20px;
+
+
+
+}
+
+.container-section-4 .slide-container .slide-part {
+width: 70%;
+}
+
+.container-section-4 .slide-container .slide-part >.slid-header {
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-section-4 .slide-container .slide-part >.slid-header h2 {
+  font-size: 22px;
+  text-align: center;
+  color: #0c3a23;
+}
+.container-section-4 .slide-container .slide-part >.slid-header img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.container-section-4 .slide-container .slide-part .slid-inner p:first-child {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+.container-section-4 .slide-container .slide-part .slid-inner h3 {
+  margin-top: 40px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.container-section-4 .slide-container .slide-part .slid-inner p:last-child {
+  text-align: center;
+  font-size: 15px;
 }
