@@ -27,10 +27,6 @@ a {
   text-decoration: none;
 }
 
-.container {
-  margin: 0 100px;
-}
-
 nav {
   display: flex;
   justify-content: space-around;
@@ -38,15 +34,22 @@ nav {
   margin-top: 20px;
 }
 
-.section {
-  margin-top: 50px;
+.section,
+.container-header{
+  padding: 0 100px;
 }
-/* 
-.section:nth-child(2),
-.section:nth-child(3),
-.section:nth-child(7){
-    background-color: #fff;
-} */
+
+.container-header,
+.section-1,
+.section-8 {
+  background-color: #f7e1d2;
+}
+
+.section-1,
+.section-5,
+.section-8 {
+  padding: 0;
+}
 
 nav .nav-pics img:last-child {
   margin-left: 10px;
@@ -166,12 +169,11 @@ header .header-top p {
 
 .container-section-1 {
   display: flex;
-  /* justify-content: space-between; */
+  margin: 0 100px;
   align-items: center;
   padding: 30px 50px;
   border-radius: 10px;
   background-color: #bfc1b9;
-  margin-top: 150px;
 }
 
 .section1-text {
@@ -179,6 +181,7 @@ header .header-top p {
 }
 
 .container-section-1 p {
+  font-size: 24px;
   line-height: 40px;
 }
 
@@ -192,6 +195,17 @@ header .header-top p {
 
 .container-section-1 img {
   width: 12%;
+}
+
+.section-1 .bottom {
+  background-color: #fffcfa;
+  margin-top: 50px;
+}
+
+.section-1 .bottom img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .container-section-2 {
@@ -311,7 +325,7 @@ header .header-top p {
 /* SECTION-4 */
 
 .container-section-4 .slide-container{
-  border: 1px solid gray;
+  background-color: #f7e1d2;
   padding: 50px 80px;
   display: flex;
   flex-direction: column;
@@ -363,4 +377,43 @@ width: 70%;
 .container-section-4 .slide-container .slide-part .slid-inner p:last-child {
   text-align: center;
   font-size: 15px;
+}
+
+/* SECTION-5 */
+
+.section-5 {
+  background-color: #bfc1b9;
+}
+
+.section-5 .backgr-top-curve {
+  background-color: #fffcfa;
+  margin-bottom: 50px;
+}
+
+.section-5 .backgr-top-curve img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: -1px;
+}
+
+.section-5 .container-section-5 {
+  margin: 0 100px;
+}
+
+/* SECTION-8 */
+
+.section-8 .container-section-8 {
+  margin: 0 100px;
+}
+
+.section-8 .section-8-top-curve {
+  background-color: #fffcfa;
+ 
+}
+
+.section-8 .section-8-top-curve img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
